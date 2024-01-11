@@ -1,0 +1,45 @@
+* {
+    font-family: 'copperplate';
+    border: 2px solid red;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: bisque;
+}
+
+.header-container-1 {
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+}
+
+.odin-img {
+    width: 100px;
+    height: auto;
+}
+
+.header-container-1 > h1 {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    
+}
+
+.header-container-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.card {
+    width: 300px;
+    height: 300px;
+    margin: 16px;
+}
